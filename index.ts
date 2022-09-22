@@ -1,5 +1,6 @@
 // Import stylesheets
 import './style.css';
+import doCode from './codeClash';
 
 interface Person {
   name: string;
@@ -21,3 +22,5 @@ if (appDiv) {
 function greet(person: PersonType) {
   return 'Hello ' + person.name + '!';
 }
+
+doCode();
